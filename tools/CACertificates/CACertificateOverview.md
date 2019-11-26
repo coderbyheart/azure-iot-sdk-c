@@ -73,7 +73,7 @@ Select the new certificate that you've created and navigate to and select  "Gene
 
 * Run `./certGen.sh create_verification_certificate 106A5SD242AF512B3498BD6098C4941E66R34H268DDB3288`
 
-In both cases, the scripts will output the name of the file containing `"CN=106A5SD242AF512B3498BD6098C4941E66R34H268DDB3288"` to the console.  Upload this file to IoT Hub (in the same UX that had the "Generate Verification Code") and select "Verify".
+In both cases, the scripts will output the name of the file containing `"CN=106A5SD242AF512B3498BD6098C4941E66R34H268DDB3288"` to the console.  Upload this file (`verification-code.cert.pem`) to IoT Hub (in the same UX that had the "Generate Verification Code") and select "Verify".
 
 ## Step 4 - Create a new device
 
